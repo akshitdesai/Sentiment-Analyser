@@ -2,7 +2,6 @@
 import sys,re
 import tkinter as tk
 import tweepy
-import pandas as pd
 
 #for graphing the data and display in Tkinter
 import matplotlib
@@ -50,10 +49,10 @@ about_label.grid(column=0,row=1)
 
 
 #My Twitter API Authentication Variables
-consumer_key = '4MA3LLghmYyx5MlHE2F1fDcwZ'
-consumer_secret = 'AVpT7rsDJN1asr91GeBn8aWlSiDx6MMMudPPOa6Xd0EYtRA8kn'
-access_token = '1087102088780210176-9htMEj8E5YrHFKy6g7iDdqOiRgEl3t'
-access_token_secret = 'eYocQjbeKX1GBe9qJROdX0TyqzrceWxbeBKUhHHf30l8v'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
