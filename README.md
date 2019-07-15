@@ -8,7 +8,6 @@ This script can tell you the sentiments of people regarding to any events happen
 * tweepy
 * textblob
 * matplotlib
-* pandas
 * tkinter
 * Matplotlib
 * spacy
